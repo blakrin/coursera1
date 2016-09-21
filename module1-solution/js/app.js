@@ -3,9 +3,9 @@
 
 angular.module('LunchCheck', [])
 
-.controller('LunchCheckController', function ($scope) {
+.controller('LunchCheckController', function ($scope
+                                              , $injector) {
 
-  $scope.result= "test"
   $scope.button = "Check If Too Much"
   // $scope.model1 = "test"
    $scope.testt= function(){
