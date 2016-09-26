@@ -15,7 +15,7 @@ angular.module('LunchCheck', [])
   function splitstring(string, separator){
     var result
     if (string === undefined || string === null) {
-      $scope.model1 = "Please enter data first"
+      $scope.resulta = "Please enter data first"
     }else{
       var trimstring = string.trim();
       result  = trimstring.split(separator);
