@@ -21,11 +21,11 @@ angular.module('LunchCheck', [])
       result  = trimstring.split(separator);
     }
     if (result.length <= 3 && result.length > 0) {
-      $scope.model1 = "Enjoy !!!"
+      $scope.resulta = "Enjoy !!!"
       console.log(result);
       console.log(result.length);
     }else if (result.length > 3) {
-      $scope.model1 = "Too Mush"
+      $scope.resulta= "Too Mush"
       console.log(result);
       console.log(result.length);
     }
